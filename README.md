@@ -3,4 +3,11 @@ Codes and Files related to the coding assignment for the data engineering intern
 
 Detailed Readme regarding task 1 is available in the folder itself.<br/>
 
-Regarding Task2 **AI4Bharat Internship Data Engineering Task2** notebook has been uploaded with detailed comments for clarity and the pdf_extract.json is sent in the response email
+Regarding Task2 **AI4Bharat Internship Data Engineering Task2** notebook has been uploaded with detailed comments for clarity and the pdf_extract.json is sent in the response email.<br/> 
+The structure of the json is as follows:<br/><br/>
+{<br/>
+  "page_url":url,<br/>
+  "pdf_url":pdf_url, <br/>
+  "paragraph": pdf-content  
+}<br/>
+(Made the mistake of keeping key as paragraph instead of pdf-content)<br/>
