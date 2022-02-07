@@ -8,6 +8,6 @@ The structure of the json is as follows:<br/><br/>
 {<br/>
   "page_url":url,<br/>
   "pdf_url":pdf_url, <br/>
-  "paragraph": pdf-content }      (Here pdf-content is stored as a dictionary with pageno. as key and the text extracted from that page as value)
+  "paragraph": pdf-content }      (Here pdf-content is stored as a dictionary with pageno. as key and the text extracted from that page as value)<br/><br/>
 <br/>
 (Made the mistake of keeping key as paragraph instead of pdf-content)<br/>
